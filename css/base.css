@@ -1,0 +1,32 @@
+.w{
+    width: 1190px;
+    margin: auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.style-red{
+    color: #f10215!important;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+/*声明字体文件*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?axvffw');
+    src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+    url('../fonts/icomoon.woff?axvffw') format('woff'),
+    url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

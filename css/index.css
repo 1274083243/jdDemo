@@ -1,0 +1,88 @@
+.j_event{
+    background-color: #000;
+}
+.j_event a{
+    height: 80px;
+    display: block;
+    background: url("../images/top.jpg") no-repeat;
+    position: relative;
+}
+.j_event a i{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    font-family: 'icomoon';
+    font-style: normal;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+}
+
+.shortcut{
+    height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    color: #9d9d9d;
+}
+.shortcut .fr li{
+    float: right;
+}
+.shortcut .fl li{
+    margin-left:200px;
+}
+.shortcut .fl i{
+    font-family: 'icomoon';
+    font-size: 14px;
+    color: #f10215;
+    font-style: normal;
+}
+
+.shortcut .fr li a{
+    text-decoration: none;
+    color: #9d9d9d;
+    font-size: 12px;
+}
+.shortcut .fr li a:hover{
+    color: #f10215;
+}
+.spacer{
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+    margin: 12px 10px 0px;
+}
+.dropDown{
+    padding-right: 15px;
+    position: relative;
+}
+.dropDown i{
+    font-family: "icomoon";
+    font-size: 16px;
+    font-style: normal;
+    position: absolute;
+    right: -7px;
+    top: 0px;
+}
+.erweima_parent{
+    position: relative;
+}
+.erweima{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    position: absolute;
+    top: 30px;
+    left: -8px;
+    display: none;
+}
+.inner{
+    height: 140px;
+    background-color: pink;
+}
+
+
